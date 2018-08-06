@@ -1,6 +1,6 @@
 #!/usr/bin/groovy
 
-@Library('github.com/yzainee/fabric8-pipeline-library@Test-sh')
+@Library('github.com/yzainee/fabric8-pipeline-library@bayesian-deps')
 def canaryVersion = "1.0.${env.BUILD_NUMBER}"
 def utils = new io.fabric8.Utils()
 
